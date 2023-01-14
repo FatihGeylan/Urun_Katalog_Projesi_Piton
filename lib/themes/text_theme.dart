@@ -87,6 +87,12 @@ class CustomTextStyle {
       color: ColorConstants.orangeColor
   );
 
+  static TextStyle subtitle10 = GoogleFonts.manrope(
+      fontSize: 16.sp,
+      fontWeight: FontWeight.w600,
+      color: ColorConstants.whiteColor
+  );
+
 
 
 

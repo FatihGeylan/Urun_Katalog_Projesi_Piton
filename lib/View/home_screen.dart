@@ -81,10 +81,20 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) => Padding(
                         padding: EdgeInsets.only(right: 10.w),
-                        child: ElevatedButton(
+                        child: index == 0 ? ElevatedButton(
+                          onPressed: () {},
+                          style: ElevatedButton.styleFrom(
+                              backgroundColor: ColorConstants.darkPurpleColor
+                          ),
+                          child: Text(
+                            CustomString.kAll,
+                            style: CustomTextStyle.subtitle10,
+                          ),
+                        ) :
+                        ElevatedButton(
                           onPressed: () {},
                           child: Text(
-                            state.response.categories![index].name.toString(),
+                            state.response.categories![index -1].name.toString(),
                             style: CustomTextStyle.subtitle8,
                           ),
                         ),

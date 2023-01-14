@@ -17,5 +17,6 @@ class CustomString {
   static const String kCatalog = "Catalog";
   static const String kSearch = "Search";
   static const String kViewAll = "View All";
+  static const String kAll = "All";
 
 }
