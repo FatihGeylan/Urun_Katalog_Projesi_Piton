@@ -10,7 +10,8 @@ PITON Technology başvurusu için örnek proje.
 
 ![Register](https://user-images.githubusercontent.com/82712893/212476177-2b88ea40-b72b-4866-9e6f-9f564626b062.png)
 
-![homepage](https://user-images.githubusercontent.com/82712893/212476186-ca8f3a75-e94e-4717-93db-8053b70f108c.png)
+![homepage](https://user-images.githubusercontent.com/82712893/212476778-80718610-4347-471c-89cc-8960b5019ad0.png)
+
 
 
 
